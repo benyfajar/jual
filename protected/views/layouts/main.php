@@ -35,7 +35,6 @@
 				array('label'=>'User', 'url'=>array('/user')),
 				array('label'=>'Penjualan', 'url'=>array('/penjualan')),
 				array('label'=>'Lap Per Nota', 'url'=>array('/penjualan/formLapPerNota')),
-				array('label'=>'Lap Per Tanggal', 'url'=>array('/penjualan/formLapPerTanggal')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
